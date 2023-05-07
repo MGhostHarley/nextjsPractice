@@ -1,11 +1,11 @@
-import "@style/globals.css";
+import "@styles/globals.css";
 
 export const metadata = {
   title: "PromptFinder",
   description: "Find AI Prompts",
 };
 
-const RootLayout = () => {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
