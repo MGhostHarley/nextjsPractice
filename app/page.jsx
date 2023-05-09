@@ -1,4 +1,4 @@
-import React from "react";
+import Feed from "@components/Feed";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
         <span className="orange_gradient text-center"> AI-powered Prompts</span>
         <p className="desc text-center">Finding new Prompts</p>
       </h1>
-      {/* feed */}
+      <Feed />
     </section>
   );
 };
